@@ -45,7 +45,7 @@ class _MoreGoodsState extends State<MoreGoods> {
     if (_goodsDataList.length > 0) {
       List<Widget> _goodsItemList = _goodsDataList.map((itemData) {
         return Container(
-          width: ScreenUtil().setWidth((750-(_rowCount+1)*3)/_rowCount),
+          width: ScreenUtil().setWidth((750-(_rowCount+1)*3.1)/_rowCount),
           padding: EdgeInsets.all(3.0),
           margin: EdgeInsets.only(bottom:3.0),
           child: InkWell(
